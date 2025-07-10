@@ -1,0 +1,32 @@
+@import './base.css';
+
+#app {
+  margin: 0 auto;
+  font-weight: normal;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+}
+
+@media (hover: hover) {
+  a:hover {
+    color: white;
+    background-color: hsla(229, 99%, 41%, 0.397);
+  }
+}
+
+img,
+figure {
+  margin: 0 auto;
+  max-width: min(100%, 500px);
+  display: block;
+}
+a{
+  color: yellowgreen;
+}
+
+
